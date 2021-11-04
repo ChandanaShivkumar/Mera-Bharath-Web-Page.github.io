@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BIHAR</title>
+	<link rel="stylesheet" type="text/css" href="">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: 'Langar', cursive;
+		}
+		.container{
+			width: 100%;
+			height: 100vh;
+			background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.1)), url('../assests/b.jpg');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.logo{
+			width: 30%;
+			background: rgba(0,0,0,0);
+			display: flex;
+			color: white;
+			letter-spacing: 3px;
+			font-size: 25px;
+			text-transform: uppercase;	
+		}
+		.row{
+			display: flex;
+			height: 88%;
+			align-items: center;
+		}
+		.col{
+			margin-left: 5%;
+			flex-basis: 50%;
+		}
+		h1{
+			color: black;
+			font-size: 80px;
+		}
+		p{
+			margin-bottom: 20px;
+			color: white;
+			font-size: 20px;
+			letter-spacing: 2px;
+			word-spacing: 3px;
+		}
+		.button{
+			width: 180px;
+			color: white;
+			font-size: 20px;
+			padding: 12px 0;
+			background: black;
+			border-radius: 10px;
+			outline: none;
+		}
+		.card{
+			width: 230px;
+			height: 250px;
+			display: inline-block;
+			border-radius: 5px;
+			padding: 15px 25px;
+			box-sizing: border-box;
+			cursor: pointer;
+			margin: 10px 15px;
+			background-position: center;
+			background-size: cover;
+			transition: transform 0.5s;
+		}
+		.card p{
+			font-size: 10px;
+			color: black;
+		}
+		.card1{
+			background-image: url("../assests/ap1.jpg");
+		}
+		.card2{
+			background-image: url("../assests/ap2.jfif");
+		}
+		.card3{
+			background-image: url("../assests/ap3.jpg");
+		}
+		.card4{
+			background-image: url("../assests/ap4.jpeg");
+		}
+		.card:hover{
+			transform: translateY(-10px);
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="logo"> <a href="../explore.html">Back</a> </div>
+		
+		<div class="row">
+			<div class="col">
+				<h1>BIHAR</h1>
+				<p>It is a state in eastern India. It is the third-largest state by population and twelfth-largest by territory, with an area of 94,163 km2 (36,357 sq mi). It is contiguous with Uttar Pradesh to its west, Nepal to the north, the northern part of West Bengal to the east, and with Jharkhand to the south.</p>
+				<!--<button type="button">EXPLORE</button>-->
+				<a href="https://en.wikipedia.org/wiki/Bihar" class="button">Explore</a>
+			</div>
+			<div class="col1">
+				<div class="card card1">
+					<h5>LANGUAGES</h5>
+					<p>Telugu is the official language of Andhra Pradesh, which is also the mother tongue of nearly 90% of the population.</p>
+				</div>
+				<div class="card card2">
+					<h5>CUISINES</h5>
+					<p>The cuisines of Andhra Pradesh boast of the Nawabi style of the royalty. They use spices, fruits, and vegetable that is grown in the region.</p>
+				</div>
+				<div class="card card3">
+					<h5>COSTUMES</h5>
+					<p>Women generally wear Saree with a blouse while some Muslim women wear Salwar Kameez. The younger generation can be seen wearing Chudidaars, Pants, Shorts while the older generation wears saree.Men wear short dhoti which is folded about the knee with kurta or shirt.</p>
+				</div>
+				<div class="card card4">
+					<h5>FESTIVALS</h5>
+					<p>Brahmotsavam, the Hindu festival is an auspicious festival celebrated every year at the Tirumala Venkateswara Temple at Tirupati in Andhra Pradesh.</p>
+				</div>
+			</div>
+			
+		</div>
+
+	</div>
+
+</body>
+</html>

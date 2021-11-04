@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Langar', cursive;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.1)), url("../assests/a.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header{
+	width: 100%;
+	height: 100vh;
+}
+
+nav{
+	width: 100%;
+	height: 15vh;
+	background: rgba(0,0,0,0);
+	display: flex;
+	color: white;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+nav .logo{
+	width: 30%;
+	text-align: center;
+	word-spacing: 10px;
+	letter-spacing: 3px;
+	font-size: 25px;
+}
+
+nav .menu{
+	width: 30%;
+	display: flex;
+	justify-content: space-around;
+	font-size: 15px;
+}
+
+nav .menu a{
+	text-decoration: none;
+	color: white;
+}
+
+nav .menu a:nth-child(2){
+	color: #00b894;
+}
+
+.maindiv{
+	
+	margin-top: 250px;
+	width: 60%;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	transform: translate(-50%, -50%);
+	background-image: url("../assests/1.jpg");
+	background-size: 100% 100%;
+	box-shadow: 1px 2px 10px 8px black;
+	animation: slider 90s infinite linear;
+}
+
+@keyframes slider{
+	0%{background-image: url("../assests/1.jpg");}
+	4%{background-image: url("../assests/2.jpg");}
+	8%{background-image: url("../assests/3.jpg");}
+	12%{background-image: url("../assests/4.jpg");}
+	16%{background-image: url("../assests/5.jpg");}
+	20%{background-image: url("../assests/6.jpg");}
+	24%{background-image: url("../assests/7.jpg");}
+	28%{background-image: url("../assests/8.jpg");}
+	32%{background-image: url("../assests/9.jpg");}
+	36%{background-image: url("../assests/10.jpg");}
+	40%{background-image: url("../assests/11.jpg");}
+	44%{background-image: url("../assests/12.png");}
+	48%{background-image: url("../assests/13.jpg");}
+	52%{background-image: url("../assests/14.jpg");}
+	56%{background-image: url("../assests/15.jpg");}
+	60%{background-image: url("../assests/16.jpg");}
+	64%{background-image: url("../assests/17.jpg");}
+	68%{background-image: url("../assests/18.jpeg");}
+	72%{background-image: url("../assests/19.jpg");}
+	76%{background-image: url("../assests/20.jpeg");}
+	80%{background-image: url("../assests/21.jpg");}
+	84%{background-image: url("../assests/22.jpg");}
+	88%{background-image: url("../assests/23.jpg");}
+	90%{background-image: url("../assests/24.jpg");}
+	92%{background-image: url("../assests/25.jpg");}
+	92%{background-image: url("../assests/26.jpg");}
+	96%{background-image: url("../assests/27.jpg");}
+	98%{background-image: url("../assests/28.jpg");}
+	100%{background-image: url("../assests/29.jpg");}
+}
